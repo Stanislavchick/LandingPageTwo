@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>No pain No gain</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet icon" href="css/image/gym_1.png">
+    <script src="jquery-3.5.1.slim.min.js"></script>
+</head>
+<body>
+<!--Шапка-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <button class="navbar-toggler text-danger" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link text-danger" href="javascript://0" onclick="slowScroll ('#top')">Главная<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#reviwes" >Отзывы</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#program" >Программы</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#achive" >Сертификаты</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#call" data-toggle="modal" data-target="#callme" >Связаться</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--Главная-->
+<div class="jumbotron jumbotron-fluid backgroundTitle"  id="top">
+    <div class="container-fluid">
+        <h1 class="display-2 col-6 " >Инна Гармаш</h1>
+        <h4 class="display-4 col-6">Персональный тренер</h4>
+        <p class="col-6" style="font-size: 25px">Тренер который не только поможет найти верное решение твоей проблемы, но и поможет обрести покой и духовное равновесие!</p>
+        <p><a class="btn_home btn btn-outline-info btn-lg ml-md-3 animate__animated animate__flash animate__slower" href="#" role="button" data-toggle="modal" data-target="#callme">Связаться &raquo;</a></p>
+    </div>
+</div>
+<!--О себе-->
+<div class="container">
+    <h2 class="display-2">О себе</h2>
+    <div class="row">
+        <div class="col-lg-5">
+            <p class="lead">Золотое правило жизни: никогда и ни при каких обстоятельствах не винить никого и ничего,
+                просто по одной простой причине — никто ничего никому не должен.
+                Ожидание - реальность. Когда ты ничего от людей не ждёшь, ты и не будешь в них разочарован .<br><br>
+                Эта и еще множество умных мыслей в моем профиле!
+               </p>
+                <a class="btn btn-outline-info mb-md-3" href="https://www.instagram.com/stormyflow_/" target="_blank">Смотреть</a>
+        </div>
+        <div class="col-lg-7">
+            <div class="elfsight-app-e35404e6-56ee-438d-a16f-358c9566bd5b"></div>
+        </div>
+    </div>
+</div>
+<!--Отзывы-->
+<div class="container">
+    <h2 class="display-2" id="reviwes">Отзывы</h2>
+    <div class="row">
+        <div class="col-lg-4 reviews">
+            <i class="far fa-user"></i>
+            <h2 class="mt-md-3">Людмила</h2>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0 text-justify mt-md-3">Не следует, однако, забывать о том, что постоянный количественный рост и
+                    сфера нашей активности играет важную роль в формировании модели...</p>
+                <footer class="blockquote-footer text-right mt-md-3">Пользователь instagram</footer>
+            </blockquote>
+        </div>
+        <div class="col-lg-4 reviews">
+            <i class="far fa-user"></i>
+            <h2 class="mt-md-3">Мария</h2>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0 text-justify mt-md-3">Дорогие друзья, социально-экономическое развитие обеспечивает актуальность
+                    дальнейших направлений развития проекта. С другой стороны начало повседневной работы по формированию позиции
+                    способствует повышению актуальности ключевых компонентов планируемого обновления.
+                    Практический опыт показывает, что рамки и место обучения кадров...</p>
+                <footer class="blockquote-footer text-right mt-md-3">Пользователь instagram</footer>
+            </blockquote>
+        </div>
+        <div class="col-lg-4 reviews">
+            <i class="far fa-user"></i>
+            <h2 class="mt-md-3">Георгий</h2>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0 text-justify mt-md-3">Соображения высшего порядка, а также курс на социально-ориентированный
+                    национальный проект способствует повышению актуальности системы обучения кадров,
+                    соответствующей насущным потребностям. Разнообразный...</p>
+                <footer class="blockquote-footer text-right mt-md-3">Пользователь instagram</footer>
+            </blockquote>
+        </div>
+
+    </div>
+
+
+</div>
+<!--Основной блок-->
+<div class="container">
+    <h2 class="display-2" id="program">Программы</h2>
+    <div class="row">
+        <div class="col-lg-6 align-self-center">
+            <h2 class="display-4">Я ненавижу тренироваться, но проигрывать я ненавижу еще больше!</h2>
+            <p class="lead">Соображения высшего порядка, а также консультация с профессионалами из IT играет важную роль в формировании системы масштабного изменения ряда параметров?
+                    <br> <br>
+                Не следует, однако, забывать о том, что рамки и место обучения кадров способствует...</p>
+        </div>
+        <div class="col-lg-6 text-center">
+            <img src="css/image/inst_1.jpg" class="img_main animate__animated"/>
+        </div>
+    </div>
+
+    <hr class="border-tag">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 order-lg-2">
+                <h2 class="display-4">Все грибы съедобны, но некоторые только раз в жизни.</h2>
+                <p class="lead">Задача организации, в особенности же повышение уровня гражданского сознания требует определения и уточнения модели развития!
+                    <br> <br>
+                    Дорогие друзья, рамки и место обучения кадров требует от нас системного анализа модели развития?
+                    <br> <br>
+                    С другой стороны постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание ключевых компонентов планируемого обновления?</p>
+            </div>
+            <div class="col-lg-6 order-lg-1 text-center" >
+                <img src="css/image/inst_2.jpg"class="img_main animate__animated" />
+            </div>
+        </div>
+    </div>
+
+    <hr class="border-tag">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 align-self-center">
+                <h2 class="display-4">Спокойствие! Только спокойствие.</h2>
+                <p class="lead">Равным образом дальнейшее развитие различных форм деятельности требует от нас анализа существующих финансовых и административных условий.
+                    <br> <br>
+                    Разнообразный и богатый опыт сложившаяся структура организации напрямую зависит от ключевых компонентов планируемого обновления.</p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="css/image/inst_3.jpg" class="img_main animate__animated"/>
+            </div>
+        </div>
+        <hr class="border-tag">
+    </div>
+</div>
+<!--Достижения-->
+<div class="container achive">
+    <h2 class="display-2" id="achive">Сертификаты</h2>
+    <div class="row">
+        <div class="col-lg-6 text-center">
+            <img src="css/image/gym_1.png" class="achive_img animate__animated">
+            <h1 class="display-4">Golden Gym</h1>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0 text-justify mt-md-3">С 2013г. FPA имеет аккредитацию в EHFA
+                    (European Health & Fitness Association, сейчас преобразована в EuropeActive) по всем направлениям тренерских курсов.
+                    Их выпускники могут стать также членами европейского сообщества здоровья и фитнеса EREPS.</p>
+                <footer class="blockquote-footer text-right mt-md-3">Получен 29.05.2015</footer>
+            </blockquote>
+        </div>
+
+    <div class="col-lg-6 text-center">
+        <img src="css/image/gym_2.png" class="achive_img animate__animated animate__delay-1s">
+        <h1 class="display-4">Power Gym</h1>
+        <blockquote class="blockquote text-center">
+            <p class="mb-0 text-justify mt-md-3">Power Gym признает квалификацию и навыки профессионалов упражнений и является
+                важной гарантией для общественности и работодателей в том, что их инструктор или работник обладает
+                соответствующей квалификацией,
+                чтобы выполнять свою роль безопасно и эффективно.</p>
+            <footer class="blockquote-footer text-right mt-md-3">Получен 15.09.2018</footer>
+        </blockquote>
+    </div>
+    </div>
+</div>
+<!--Обратная связь-->
+<div class="modal fade" id="callme" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Новое обращение</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Ваше имя</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Ваше номер</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Х-ХХХ-ХХХ-ХХ-ХХ">
+                    </div>
+                    <div>
+                        <label for="recipient-name" class="col-form-label">План занятий</label>
+                        <select class="custom-select">
+                            <option selected>Выбрать план</option>
+                            <option value="tran">Тренировки</option>
+                            <option value="food">Питание</option>
+                            <option value="psy">Духовность</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Дополнительно о себе</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-outline-success">Отправить</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Подвал-->
+<div class="container-fluid backgroundFooter">
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <h3 class="font-weight-lighter">Узнать обо мне больше</h3><br>
+            <a href="https://www.instagram.com/stormyflow_/" target="_blank" ><i class="fab fa-instagram  ml-md-3"></i></a>
+            <a href="#" ><i class="fab fa-facebook-square ml-md-3 "></i></a>
+            <a href="#" ><i class="fab fa-vk ml-md-3 align-center"></i></a>
+            <p class="float-right"><a class="nav-link" href="javascript://0" onclick="slowScroll ('#top')">Подняться наверх</a></p>
+        </div>
+    </footer>
+</div>
+<!--Скрипты-->
+<script src="script/main.js"></script>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<script src="script/main.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</body>
+</html>
