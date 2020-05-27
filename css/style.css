@@ -1,0 +1,105 @@
+.navbar a{
+    font-size: 18px;
+}
+
+.backgroundTitle{
+    background: url("image/background_svg_1.png");
+    background-size: 50px 50px;
+    background-attachment: fixed;
+    background-repeat: round;
+    background-blend-mode: soft-light;
+}
+.btn_home{
+    animation-iteration-count: infinite;
+}
+
+.elfsight-app-e35404e6-56ee-438d-a16f-358c9566bd5b {
+    box-shadow: 5px 5px 10px black ;
+}
+
+.reviews {
+    padding: 1.5em 1.5em;
+    text-align: center;
+}
+
+.fa-user {
+    font-size: 4.5em;
+    color: cadetblue;
+}
+
+.border-tag{
+    border-top: 0.1em solid tomato;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.img_main {
+    object-fit: cover;
+    width: 400px;
+    height: 320px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.achive img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 50%;
+}
+
+.backgroundFooter {
+    background: url("image/background_svg_1.png");
+    background-size: 50px 50px;
+    background-attachment: fixed;
+    background-color: #e9ecef;
+    background-blend-mode: soft-light;
+}
+
+.fa-instagram,.fa-facebook-square ,.fa-vk {
+    font-size: 2em;
+    color: darkgray;
+}
+
+.fa-facebook-square:hover {
+    color: darkblue;
+}
+
+.fa-vk:hover:hover  {
+    color: blue;
+}
+.fa-instagram:hover {
+    color: orangered;
+}
+
+
+.footer a {
+    font-size: 1.2em;
+}
+
+
+
+@media (min-width: 768px)
+    .order-lg-1 {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    @media (min-width: 768px)
+        .col-lg-6 {
+            -ms-flex: 0 0 41.666667%;
+            flex: 0 0 41.666667%;
+            max-width: 41.666667%;
+        }
+        @media (min-width: 768px)
+            .order-lg-2 {
+                -ms-flex-order: 2;
+                order: 2;
+            }
+
+            @media (min-width: 768px)
+                .col-lg-6 {
+                    -ms-flex: 0 0 58.333333%;
+                    flex: 0 0 58.333333%;
+                    max-width: 58.333333%;
+                }
